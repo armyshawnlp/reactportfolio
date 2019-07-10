@@ -11,9 +11,9 @@ class Resume extends Component {
                     <Cell col={4}>
                         <div style={{textAlign: 'center'}}>
                             <img
-                                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                                src="https://i.imgur.com/Be27BVM.png"
                                 alt="avatar"
-                                style={{height: '200px'}}
+                                style={{height: '300px'}}
                                 />
                         </div>
                         <h2 style={{paddingTop: '2em'}}>Shawn Patton</h2>
@@ -24,7 +24,7 @@ class Resume extends Component {
                         <h5>Address</h5>
                         <p>Houston, TX</p>
                         <h5>Email</h5>
-                        <p>dsfadfa</p>
+                        <p>shawn_patton@outlook.com</p>
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
                     <h2>Education</h2>
@@ -53,7 +53,7 @@ class Resume extends Component {
                 />
               <hr style={{borderTop: '3px solid #e22947'}} />
 
-                    />
+                    
 
                     </Cell>
                 </Grid>

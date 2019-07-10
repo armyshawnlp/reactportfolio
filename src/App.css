@@ -26,7 +26,7 @@ height: 100%;
 }
 
 .banner-text {
-    background-color: whitesmoke;
+    background-color: #0F05E3;
     opacity: .8;
     width: 75%;
     margin: auto;
@@ -36,16 +36,16 @@ height: 100%;
 .banner-text h1 {
     font-size: 66px;
     font-weight: bold;
-    color: black;
+    color: white;
 }
 
 .banner-text hr {
-    border-top: 15px dotted white;
+    border-top: 15px dotted #313131;
     width:50%;
     margin: auto;
 }
 .banner-text p {
-    color: black;
+    color: white;
     font-size: 20px;
     padding: 1em;
 }
@@ -58,7 +58,7 @@ height: 100%;
 }
 
 .social-links i{
-    color: black;
+    color: white;
     font-size: 5em;
     padding: 8px;
 }

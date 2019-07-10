@@ -33,11 +33,13 @@ class Projects extends Component {
                   "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
               }}
             >
-              React Project #1
+              Robofriends
             </CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's
+
+              https://reactrobotfriends.netlify.com/
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
@@ -109,13 +111,13 @@ class Projects extends Component {
     } else if (this.state.activeTab === 2) {
       return (
         <div>
-          <h1>This is VueJS</h1>
+          <h1>This is Ruby</h1>
         </div>
       );
     } else if (this.state.activeTab === 3) {
       return (
         <div>
-          <h1>This is MongoDB</h1>
+          <h1>This is Java</h1>
         </div>
       );
     }
@@ -130,8 +132,8 @@ class Projects extends Component {
         >
           <Tab>React</Tab>
           <Tab>Angular</Tab>
-          <Tab>VueJS</Tab>
-          <Tab>MongoDB</Tab>
+          <Tab>Ruby</Tab>
+          <Tab>Java</Tab>
         </Tabs>
         <Grid>
           <Cell col={12}>
